@@ -1,0 +1,67 @@
+{
+  "expo": {
+    "name": "one-date-client",
+    "slug": "one-date-client",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.datehq.onedate",
+      "config": {
+        "googleMapsApiKey": "AIzaSyDuF01hShexTHU9FI2u28U9-fmSVBUNmEk"
+      },
+      "buildNumber": "1"
+    },
+    "packagerOpts": {
+      "sourceExts": [
+        "ts",
+        "tsx",
+        "js"
+      ],
+      "transformer": "node_modules/react-native-typescript-transformer/index.js"
+    },
+    "extra": {
+      "firebase": {
+        "apiKey": "AIzaSyBIn8a--atK3_ytI61BIjZktqamvpFDTD4",
+        "authDomain": "one-date-planning-app.firebaseapp.com",
+        "databaseURL": "https://one-date-planning-app.firebaseio.com",
+        "projectId": "one-date-planning-app",
+        "storageBucket": "one-date-planning-app.appspot.com",
+        "messagingSenderId": "821178705436"
+      },
+      "facebook": {
+        "appId": "488030672048305"
+      },
+      "apiEndpoint": {
+        "local": "http://192.168.101.16:3080/",
+        "dev": "https://1date-uad.com/"
+      },
+      "googlemapEndpoint": {
+        "api": "https://maps.googleapis.com/maps/api",
+        "key": "AIzaSyCsM1NTvST-ahQ3VC8qRJ6l8QUckrjDMRI"
+      },
+      "ekispertEndpoint": {
+        "api": "http://api.ekispert.jp/v1",
+        "key": "test_PJAzvXweALm"
+      },
+      "webEndpoint": "https://one-date-dev.web.app"
+    }
+  }
+}

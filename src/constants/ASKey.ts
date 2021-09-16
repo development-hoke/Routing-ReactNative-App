@@ -1,0 +1,4 @@
+export enum ASYNC_STORAGE_KEY {
+  USER = '@LOGIN_USER',
+  PASSWORD = '@LOGIN_PASSWORD',
+}

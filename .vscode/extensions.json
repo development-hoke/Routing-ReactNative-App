@@ -1,0 +1,21 @@
+{
+  "recommendations": [
+    // Bracket Pair Colorizer
+    "coenraads.bracket-pair-colorizer",
+    // ESLint
+    "dbaeumer.vscode-eslint",
+    // Prettier
+    "esbenp.prettier-vscode",
+    // Debugger for Chrome
+    "msjsdiag.debugger-for-chrome",
+    // Indent-Rainbow
+    "oderwat.indent-rainbow",
+    // stylelint
+    "stylelint.vscode-stylelint",
+    // Visual Studio IntelliCode
+    "VisualStudioExptTeam.vscodeintellicode",
+    // vscode-icons
+    "vscode-icons-team.vscode-icons"
+  ],
+  "unwantedRecommendations": []
+}
